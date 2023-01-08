@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+.navbar_brand {
+  font-family: 'Cardo', serif;
+}
 .App {
   text-align: center;
 }
