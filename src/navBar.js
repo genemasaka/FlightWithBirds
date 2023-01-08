@@ -9,7 +9,7 @@ export function NavBar() {
         <a class="navbar-brand" href="#">Shop</a>
         <a class="navbar-brand" href="#">Lookbooks</a>
         <a class="navbar-brand" href="#">Blog</a>
-        <Button variant="primary">Connect Wallet</Button>{' '}
+        <Button variant="dark">Connect Wallet</Button>{' '}
         </div>
         </nav>
         
