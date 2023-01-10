@@ -1,11 +1,38 @@
+@font-face {
+  font-family: 'Brachetto';
+  src: url(./Font/Brachetto.ttf)
+}
 .navbar-brand{
-  font-family: 'Cardo', serif;
+  font-family: 'Brachetto', serif;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-left: 25px;
 }
-a {
-  font-family: 'Cardo', serif;
-  font-size: 7;
+.navbar-nav {
+  text-align: right;
+  margin-right: 20px;
+}
+.nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9;
   margin: 2;
+  color: black;
 }
+
 .btn{
-  font-family: 'Cardo', serif;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 15px;
 }
+
+.bg-img {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
