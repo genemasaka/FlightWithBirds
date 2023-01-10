@@ -1,4 +1,4 @@
-import bg_image from "./images/athleisure.jpg";
+import bg_image from "./images/flight with birds.png";
 export function Body() {
     return (
         <>

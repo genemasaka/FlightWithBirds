@@ -4,7 +4,7 @@ import './App.css';
 export function NavBar() {
 return (
 <>
-<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
   
   <a class="navbar-brand" href="#">flight with birds</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
