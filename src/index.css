@@ -2,9 +2,12 @@
   font-family: 'Brachetto';
   src: url(./Font/Brachetto.ttf)
 }
+.navbar {
+  margin-top: 0;
+}
 .navbar-brand{
   font-family: 'Brachetto', serif;
-  font-size: xx-large;
+  font-size: 27px !important;
   font-weight: bold;
   margin-left: 25px;
 }
