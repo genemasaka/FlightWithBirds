@@ -1,12 +1,13 @@
-import Button from 'react-bootstrap/Button';
+import React from 'react';
+import {Link} from 'react-router-dom';
 
-import './App.css';
+import '../App.css';
 export function NavBar() {
 return (
 <>
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
   
-  <a class="navbar-brand" href="#">flight with birds</a>
+  <a class="navbar-brand" >flight with birds</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
