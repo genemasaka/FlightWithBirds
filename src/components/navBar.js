@@ -2,10 +2,11 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import '../App.css';
-export function NavBar() {
+export function NavBar({nav_bg}) {
+  let bg_toggle = nav_bg;
 return (
 <>
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+<nav class="navbar fixed-top navbar-expand-lg navbar-{bg_toggle}">
   
   <Link to="/" class="navbar-brand" >flight with birds</Link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">

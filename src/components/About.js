@@ -1,5 +1,7 @@
+import { NavBar } from "./navBar.js";
 export const About = () => {
 	return (
-		<h1>About</h1>
+		<NavBar nav_bg={"dark"} />
+
 	);
 }

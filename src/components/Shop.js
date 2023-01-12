@@ -3,8 +3,8 @@ import { NavBar } from "./navBar.js";
 export function Shop() {
     return (
         <>
-            <NavBar />;
-            <div class="row">
+            <NavBar nav_bg={"light"}/>;
+            <div class="row mt-5">
   <div class="col-sm-6">
     <div class="card text-center">
         <img class ="card-img-top" src = "" alt="Product image"/>
