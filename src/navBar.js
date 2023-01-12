@@ -25,7 +25,7 @@ return (
       </li>
     </ul>
 
-    <button class="btn btn-outline-secondary">
+    <button class="btn btn-primary">
     <span>Connect Wallet</span>
     </button>
   </div>

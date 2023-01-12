@@ -19,12 +19,14 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 9;
   margin: 2;
-  color: black;
+  color: grey !important;
 }
 
 .btn{
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 15px;
+  background-color: transparent !important;
+  outline-color: blue !important;
 }
 
 .bg-img {
