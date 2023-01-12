@@ -1,4 +1,5 @@
 import bg_image from "../images/flight with birds.png";
+import { NavBar } from "./navBar";
 export function Home() {
     return (
         <>

@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router,
-		 Switch,
 		 Route,
+		 Routes,
 		 Link
  } from 'react-router-dom';
 import {NavBar} from "./components/navBar"
@@ -15,17 +15,14 @@ function App() {
   return (
     <>
     <Router>
-    	<Switch>
-    		<Route path="/">
-    			<Home />
-    		</Route>
-    		<Route path="/shop">
-    			<Shop />
-    		</Route>
-    		<Route path="/about">
-    			<About />
-    		</Route>
-    	</Switch>
+    	<Routes>
+    		<Route path="/" element={<Home />} />
+ 
+    		<Route path="/shop" element={<Shop />} />
+    		
+    		<Route path="/about" element={<About />} />
+    		
+    	</Routes>
     </Router>
     </>
   );
