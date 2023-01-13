@@ -1,10 +1,34 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import { useState } from 'react'
 import '../App.css';
+
 export function NavBar({nav_bg}) {
-  let bg_toggle = nav_bg;
+  const {walletAddress, setWalletAddress} = useState(" ");
+
+  async function requestAccount() {
+
+    console.log("Requesting account...");
+
+    if(window.ethereum) {
+      console.log("detected...");
+
+      try {
+        const accounts = await window.ethereum.request({
+          method: "eth_requestAccounts",
+        });
+        console.log(accounts)
+
+      } catch (error) {
+          console.log("Error connecting...");
+      }
+    } else {
+      console.log('Please install metamask in your browser');
+    }
+
+  }
 return (
+
 <>
 <nav class="navbar fixed-top navbar-expand-lg navbar-{bg_toggle}">
   
@@ -25,7 +49,9 @@ return (
       </li>
     </ul>
 
-    <button class="btn btn-outline-secondary">
+    <button class="btn btn-outline-secondary" 
+      onClick={ requestAccount }
+    >
     <span>Connect Wallet</span>
     </button>
   </div>
